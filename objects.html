@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объекты</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    </link>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="c-header">
+        <div id="c-header">
+            <div class="c-header-top">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <a href="index.html"><img src="assets/img/logo.svg" alt="Логотип" class="c-header-top__logo"></a>
+                    <div class="c-header-top__desktop" style="width: 200px;">
+                        <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                        <p class="c-p-primary m-0">г. Москва, ул. Тверская, д.6, кор. 1/4</p>
+                    </div>
+                    <div class="c-header-top__desktop" style="width: 200px;">
+                        <div class="me-2"><img src="assets/img/mail.svg" alt="Иконка"></div>
+                        <a href="mailto:example@example.com" class="c-p-primary m-0">example@example.com</a>
+                    </div>
+                    <div class="c-header-top__desktop align-items-center">
+                        <a href="tel:+7 (499)-288-00-05" class="c-button-input-text m-0 me-3">+7 (499)-288-00-05</a>
+                        <button class="c-button c-open-modal">
+                            <span class="c-button-input-text c-button__text">Заказать звонок</span>
+                        </button>
+                    </div>
+                    <div class="c-header-top__burger" id="header-toggle">
+                        <img src="assets/img/burger.svg" class="c-header-top__burger-icon" alt="Иконка">
+                    </div>
+                </div>
+            </div>
+            <div class="c-header-bottom" id="header-menu">
+                <div class="container">
+                    <nav>
+                        <ul class="c-nav">
+                            <li class="c-nav__nav-link"><a href="index.html"
+                                    class="c-nav__link c-p-primary">Главная</a></li>
+                            <li class="c-nav__nav-link"><a href="about.html" class="c-nav__link c-p-primary">О нас</a></li>
+                            <li class="c-nav__nav-link"><a href="contacts.html" class="c-nav__link c-p-primary">Контакты</a>
+                            </li>
+                            <li class="c-nav__nav-link c-dropdown">
+                                <span class="c-nav__link c-p-primary">Услуги</span>
+                                <ul class="c-dropdown__list">
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Вентиляция и Дымоудаление</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Кондиционирование и Холодоснабжение</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Отопление и теплоснабжение</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Водоснабжение и канализация</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Водяное пожаротушение</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Электроснабжение и электроосвещение</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Слаботочные системы</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Система учета тепла, воды, электроэнергии</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">ОЗДС</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Диспетчеризация и автоматизация</a></li>
+                                    <li class="c-dropdown__list-item"><a href="service.html" class="c-dropdown__link c-color-text">Отделочные работы</a></li>
+                                </ul>
+                            </li>
+                            <li class="c-nav__nav-link c-nav__nav-link_active"><a href="objects.html" class="c-nav__link c-p-primary">Объекты</a></li>
+                            <li class="c-nav__nav-link"><a href="blog.html" class="c-nav__link c-p-primary">Статьи</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="c-header-bottom__mobile flex-column m-3">
+                        <a href="tel:+7 (499)-288-00-05" class="c-button-input-text m-0 me-3 mb-2 align-self-center">+7
+                            (499)-288-00-05</a>
+                        <button class="c-button c-open-modal">
+                            <span class="c-button-input-text c-button__text">Заказать звонок</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="c-main">
+        <div class="container">
+            <ul class="c-breadcrumbs">
+                <li class="c-breadcrumbs__item"><a href="index.html" class="c-breadcrumbs__link">Главная</a></li>
+                <li class="c-breadcrumbs__item"><span class="c-breadcrumbs__current">Объекты</span></li>
+            </ul>
+        </div>
+        <section class="c-section">
+            <div class="container">
+                <h3 class="c-h3 mb-4 c-color-dark-purple text-center">Наши проекты</h3>
+                <div class="d-flex justify-content-center justify-content-xl-start flex-wrap">
+                    <div class="c-card-3 m-3">
+                        <div class="c-card-3__img-container">
+                            <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+                        </div>
+                        <div class="c-card-3__content">
+                            <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                                <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                                <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                                <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card-3 m-3">
+                        <div class="c-card-3__img-container">
+                            <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+                        </div>
+                        <div class="c-card-3__content">
+                            <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                                <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                                <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                                <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card-3 m-3">
+                        <div class="c-card-3__img-container">
+                            <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+                        </div>
+                        <div class="c-card-3__content">
+                            <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                                <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                                <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                                <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card-3 m-3">
+                        <div class="c-card-3__img-container">
+                            <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+                        </div>
+                        <div class="c-card-3__content">
+                            <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                                <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                                <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                                <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card-3 m-3">
+                        <div class="c-card-3__img-container">
+                            <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+                        </div>
+                        <div class="c-card-3__content">
+                            <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                                <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                                <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                                <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="c-modal-paper" id="modal-paper">
+        <form class="c-modal">
+            <div class="c-modal__close"><img src="assets/img/close.svg" id="modal-close" alt="Закрыть"></div>
+            <h4 class="c-h4 c-color-dark-purple">Получить консультацию</h4>
+            <div class="c-input mb-2">
+                <label class="c-input__label c-button-input-text" for="modal-name-input">Ваше Ф.И.О</label>
+                <input class="c-input__input c-button-input-text w-100" id="modal-name-input"
+                    placeholder="Иванов Иван Иванович">
+            </div>
+            <div class="c-input c-input_error mb-2">
+                <label class="c-input__label c-button-input-text" for="modal-organization-input">Название
+                    организации</label>
+                <input class="c-input__input c-button-input-text w-100" id="modal-organization-input"
+                    placeholder="Название организации">
+            </div>
+            <div class="c-input mb-2">
+                <label class="c-input__label c-button-input-text" for="modal-phone-input">Телефон</label>
+                <input class="c-input__input c-button-input-text w-100" id="modal-phone-input"
+                    placeholder="+ 7 (---) --- -- --">
+            </div>
+            <div class="c-input mb-2">
+                <label class="c-input__label c-button-input-text" for="modal-email-input">Ваша почта</label>
+                <input class="c-input__input c-button-input-text w-100" id="modal-email-input"
+                    placeholder="example@example.com">
+            </div>
+            <button type="submit" class="c-button my-3 w-100">
+                <span class="c-button-input-text c-button__text">Обратный звонок</span>
+            </button>
+            <div class="c-checkbox d-flex align-items-center">
+                <input type="checkbox" class="c-checkbox__input" id="form-checkbox">
+                <label class="c-checkbox__custom me-2" for="form-checkbox"></label>
+                <label class="c-caption c-color-text" for="form-checkbox">Согласен на <a href="#"
+                        class="c-color-text">обработку персональных данных</a></label>
+            </div>
+        </form>
+    </div>
+    <footer class="c-footer">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="mb-4">
+                    <h3 class="c-h3 c-color-primary">Навигация</h3>
+                    <a href="index.html" class="c-p-primary c-color-text d-block">Главная</a>
+                    <a href="about.html" class="c-p-primary c-color-text d-block">О нас</a>
+                    <a href="contacts.html" class="c-p-primary c-color-text d-block">Контакты</a>
+                    <a href="blog.html" class="c-p-primary c-color-text d-block">Статьи</a>
+                </div>
+                <div class="mb-4">
+                    <h3 class="c-h3 c-color-primary">Услуги</h3>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Вентиляция и Дымоудаление</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Кондиционирование и Холодоснабжение</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Отопление и теплоснабжение</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Водоснабжение и канализация</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Водяное пожаротушение</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Электроснабжение и электроосвещение</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Электроснабжение и электроосвещение</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">ОЗДС</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Диспетчеризация и автоматизация</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Отделочные работы</a>
+                    <a href="service.html" class="c-p-primary c-color-text d-block">Система учета тепла, воды, электроэнергии</a>
+                </div>
+                <div class="mb-4">
+                    <h3 class="c-h3 c-color-primary">Контакты</h3>
+                    <div class="d-flex mb-3" style="width: 200px;">
+                        <div class="me-3"><img src="assets/img/mail.svg" alt="Иконка"></div>
+                        <a href="mailto:example@example.com" class="c-p-primary m-0">example@example.com</a>
+                    </div>
+                    <div class="d-flex mb-3" style="width: 200px;">
+                        <div class="me-3"><img src="assets/img/phone.svg" alt="Иконка"></div>
+                        <a href="tel:+7 (499)-288-00-05" class="c-p-primary m-0">+7 (499)-288-00-05 </a>
+                    </div>
+                    <div class="d-flex mb-3" style="width: 200px;">
+                        <div class="me-3"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                        <p class="c-p-primary m-0">г. Москва, ул. Тверская, д.6, кор. 1/4</p>
+                    </div>
+                    <div class="d-flex mb-3" style="width: 200px;">
+                        <div class="me-3"><img src="assets/img/clock.svg" alt="Иконка"></div>
+                        <p class="c-p-primary m-0">Пн - Пт: 9:00 - 18:00 Сб - Вс: выходной</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="c-footer__hr mb-4 c-color-primary">
+            <div class="c-p-primary text-center c-color-text">© Все права защищены.</div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>components</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    </link>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <h3 class="c-h3 text-center">Typography</h3>
+        <h1 class="c-h1">Header 1</h1>
+        <h2 class="c-h2">Header 2</h2>
+        <h3 class="c-h3">Header 3</h3>
+        <h4 class="c-h4">Header 4</h4>
+        <h5 class="c-h5">Header 5</h5>
+        <p class="c-p-primary">Lorem ipsum dolor sit amet.</p>
+        <p class="c-p-secondary">Lorem ipsum dolor sit amet.</p>
+        <p class="c-caption">Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="c-link">Lorem ipsum dolor sit amet.</a>
+        <a href="#" class="c-link-button">Lorem ipsum dolor sit amet.</a>
+        <p class="c-button-input-text">Lorem ipsum dolor sit amet.</p>
+        <hr>
+        <div class="c-card">
+            <img src="assets/img/kit/card-example.png" alt="Картинка" class="c-card__img">
+            <div class="c-card__content">
+                <img src="assets/img/kit/1.svg" alt="иконка">
+                <a href="#" class="c-h5 c-card__h5">Вентиляция и Дымоудаление</a>
+                <p class="c-p-primary c-card__p">С другой стороны, реализация намеченных плановых заданий является ....
+                </p>
+                <a href="#" class="c-link c-card__link">Узнать подробнее</a>
+            </div>
+        </div>
+        <div class="d-flex">
+            <article class="c-card">
+                <img src="assets/img/kit/card-example.png" alt="Картинка" class="c-card__img">
+                <div class="c-card__content">
+                    <img src="assets/img/kit/1.svg" alt="иконка">
+                    <a href="#" class="c-h5 c-card__h5">Вентиляция и Дымоудаление</a>
+                    <p class="c-p-primary c-card__p">С другой стороны, реализация намеченных плановых заданий является ....
+                    </p>
+                    <a href="#" class="c-link c-card__link">Узнать подробнее</a>
+                </div>
+            </article>
+            <article class="c-card">
+                <img src="assets/img/kit/card-example.png" alt="Картинка" class="c-card__img">
+                <div class="c-card__content">
+                    <img src="assets/img/kit/1.svg" alt="иконка">
+                    <a href="#" class="c-h5 c-card__h5">Вентиляция и Дымоудаление</a>
+                    <p class="c-p-primary c-card__p">С другой стороны, реализация намеченных плановых заданий является ....
+                    </p>
+                    <a href="#" class="c-link c-card__link">Узнать подробнее</a>
+                </div>
+            </article>
+            <article class="c-card">
+                <img src="assets/img/kit/card-example.png" alt="Картинка" class="c-card__img">
+                <div class="c-card__content">
+                    <img src="assets/img/kit/1.svg" alt="иконка">
+                    <a href="#" class="c-h5 c-card__h5">Вентиляция и Дымоудаление</a>
+                    <p class="c-p-primary c-card__p">С другой стороны, реализация намеченных плановых заданий является ....
+                    </p>
+                    <a href="#" class="c-link c-card__link">Узнать подробнее</a>
+                </div>
+            </article>
+        </div>
+        <hr>
+        <h3 class="c-h3 text-center">Button</h3>
+        <button class="c-button">
+            <span class="c-button-input-text c-button__text">Обратный звонок</span>
+        </button>
+        <hr>
+        <h3 class="c-h3 text-center">Nav</h3>
+        <ul class="c-nav">
+            <li class="c-nav__nav-link"><a href="#" class="c-nav__link c-p-primary">Главная</a></li>
+            <li class="c-nav__nav-link"><a href="#" class="c-nav__link c-p-primary">Главная</a></li>
+            <li class="c-nav__nav-link c-nav__nav-link_active"><a href="#" class="c-nav__link c-p-primary">Главная</a>
+            </li>
+        </ul>
+        <hr>
+        <h3 class="c-h3 text-center">Input</h3>
+        <div class="c-input">
+            <label class="c-input__label c-button-input-text" for="ui-input">Ваш E-mail</label>
+            <input class="c-input__input c-button-input-text" id="ui-input" placeholder="Введите почту">
+        </div>
+        <div class="c-input c-input_error">
+            <label class="c-input__label c-button-input-text" for="ui-input-2">Ваш E-mail</label>
+            <input class="c-input__input c-button-input-text" id="ui-input-2" placeholder="Введите почту">
+        </div>
+        <hr>
+        <h3 class="c-h3 text-center">Card 2</h3>
+        <div class="c-card-2 d-flex flex-lg-row flex-column">
+            <div class="c-card-2__img-container">
+                <img src="https://picsum.photos/296/216" class="c-card-2__img" alt="Картинка">
+            </div>
+            <div class="c-card-2__content">
+                <div class="c-card-2__content-top">
+                    <h4 class="c-h4 c-color-text">Монтаж бытового кондиционера в частном доме</h4>
+                    <p class="c-p-primary c-card-2__desc">В этой статье мы расскажем о всех подводных камнях установки бытовокого
+                        кондиционера в частном доме, к примеру на даче. Разберем все этапы работ от идеи до нажания
+                        кнопки на пульте управления.</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-end">
+                    <p class="c-caption c-card-2__date m-0">3 марта 2022</p>
+                    <a href="#" class="c-link c-color-primary">Читать статью</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 class="c-h3 text-center">Card 3</h3>
+        <div class="c-card-3">
+            <div class="c-card-3__img-container">
+                <img src="https://hr-portal.ru/files/mini/commercial-construction-site-med.jpg" alt="Картинка" class="c-card-3__img">
+            </div>
+            <div class="c-card-3__content">
+                <a href="#" class="c-h4">ЖК Фестиваль Парк</a>
+                <div class="d-flex">
+                    <div class="me-2"><img src="assets/img/marker.svg" alt="Иконка"></div>
+                    <p class="c-p-primary">ул. Фестивальная дом 29, корпус № 17, корпус № 18, корпус №19</p>
+                </div>
+                <div class="d-flex">
+                    <div class="me-2"><img src="assets/img/hashtag.svg" alt="Иконка"></div>
+                    <p class="c-p-primary" style="transform: translateY(1px);">135 000 м2</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-end">
+                    <p class="c-caption m-0 c-color-text-third">3 марта 2022</p>
+                    <a href="#" class="c-link c-color-primary">Смотреть больше</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 class="c-h3 text-center">Table</h3>
+        <div class="c-table">
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">Тюменский проезд вл.5, корпус 5, корпус 8, корпус 9</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+            <div class="c-table__row">
+                <div class="c-table__col">
+                    <p class="c-p-primary m-0 c-color-text">Стадия проекта</p>
+                </div>
+                <div class="c-table__col">
+                    <p class="c-p-secondary m-0 c-color-text">ЖК Преображение</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
